@@ -1,11 +1,12 @@
+import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h2>Secret Word</h2>
-    </div>
-  );
-}
+import StartScreen from './components/StartScreen';
+
+const App = () => (
+  <div className="App">
+    <StartScreen />
+  </div>
+)
 
 export default App;
