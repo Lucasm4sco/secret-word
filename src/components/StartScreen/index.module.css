@@ -4,9 +4,8 @@
 }
 
 .paragraph {
-    color: yellow;
     font-size: 14pt;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 .btn_start {

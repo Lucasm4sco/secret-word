@@ -49,6 +49,7 @@ const Game = ({
             </p>
             <form onSubmit={ handleSubmit }>
                 <input type="text" 
+                    minLength="1"
                     maxLength="1" 
                     className={styles.inputLetter}
                     onChange={(e) => setLetter(e.target.value.toUpperCase())}

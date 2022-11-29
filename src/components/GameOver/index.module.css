@@ -1,0 +1,41 @@
+.title {
+    font-family: 'Fredoka One', cursive;
+    font-size: 32pt;
+}
+
+.points {
+    font-size: 16pt;
+    margin-top: 20px;
+}
+
+.points span {
+    color: #353e41e6;
+    font-weight: 700;
+}
+
+.wordResponse {
+    font-size: 14pt;
+    margin: 35px;
+}
+
+.wordResponse span {
+    color: yellow;
+}
+
+.btn_restart {
+    padding: 20px 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    font-size: 14pt;
+}
+
+.btn_restart:hover {
+    cursor: pointer;
+    transition: background .5s ease;
+    background-color: rgb(21, 105, 216);
+}
+
+.btn_start:focus {
+    transition: transform .1s;
+    transform: translateY(1px);
+}
