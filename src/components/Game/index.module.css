@@ -1,0 +1,116 @@
+.points {
+    font-size: 12pt;
+    color: rgb(218, 214, 214);
+}
+
+.points span {
+    background-color: rgba(240, 248, 255, 0.685);
+    color: rgb(17, 97, 172);
+    padding: 3px;
+    font-size: 20px;
+    border: 1px solid rgb(14, 10, 10);
+    border-left: none;
+}
+
+.points span:first-child {
+    margin-left: 10px;
+    border-left: 1px solid rgb(19, 17, 17);
+}
+
+.title {
+    font-family: 'Fredoka One', cursive;
+    font-size: 32pt;
+    margin: 10px;
+}
+
+.tip {
+    font-size: 16pt;
+    margin: 10px;
+}
+
+.tip span {
+    color: yellow;
+}
+
+.boxWord {
+    border: 10px solid rgb(240, 180, 16);
+    padding: 12px;
+    margin: 10px 5px;
+}
+
+.word {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(26, 27, 27);
+    font-size: 30pt;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.word span {
+    display: grid; 
+    place-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(12, 80, 143);
+}
+
+.paragraph {
+    font-size: 16pt;
+    margin: 20px;
+}
+
+form {
+    padding: 10px;
+}
+
+.inputLetter {
+    background-color: aliceblue;
+    height: 40px;
+    width: 40px;
+    margin: 0 30px;
+    color: rgb(38, 39, 41);
+    font-size: 20pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    transform: translateY(2px);
+}
+
+.buttonSubmit {
+    font-size: 16pt;
+    font-weight: 700;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 15px 20px;
+    margin: 0;
+}
+
+.buttonSubmit:hover {
+    transition: all .3s ease;
+    cursor: pointer;
+    background-color: rgb(20, 51, 119);
+}
+
+.infoLetters {
+    margin: 20px;
+    text-align: center;
+    font-size: 13pt;
+}
+
+.letters {
+    font-size: 14pt;
+    font-weight: 600;
+    color: #ed3737d2;
+}
+
+@media screen and (min-width: 600px) {
+    .title {
+        margin-top: 30px;
+    }
+    .boxWord {
+        margin: 30px;
+    }
+}

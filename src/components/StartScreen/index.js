@@ -1,11 +1,16 @@
 import React from 'react';
-import './index.module.css';
+import styles from './index.module.css';
 
-const StartScreen = () => (
+const StartScreen = ({startGame}) => (
     <>
-        <h1>Secret Word</h1>
-        <p>Clique abaixo para jogar</p>
-        <button>Começar jogo</button>
+        <h1 className={styles.title}>Secret Word</h1>
+        <p className={styles.paragraph}>Clique abaixo para jogar</p>
+        <button 
+            className={styles.btn_start}
+            onClick={startGame}
+        >
+            Começar jogo
+        </button>
     </>
 );
 

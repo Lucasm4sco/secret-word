@@ -4,6 +4,7 @@ body {
   font-family: Helvetica, sans-serif;
   color: #fff;
   background-image: linear-gradient(0deg, #080B28F0 3%, #1D82E2FF 59%);
+  text-align: center;
 }
 
 .App {
@@ -12,4 +13,5 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10px 5px;
 }
